@@ -12,7 +12,10 @@ mongosh --eval "db.disableFreeMonitoring()"
 
 # install drivers
 /bin/bash /workspace/.devcontainer/scripts/mongodb-go-drivers.sh
-/bin/bash /workspace/.devcontainer/scripts/mongodb-node-drivers.sh
 
 # import example data
 #/bin/bash /workspace/.devcontainer/scripts/import-examples.sh
+
+# run node
+cd /workspace;
+npm update && npm install
