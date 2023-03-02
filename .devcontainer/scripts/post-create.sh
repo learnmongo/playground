@@ -14,7 +14,7 @@ mongosh --eval "db.disableFreeMonitoring()"
 /bin/bash /workspace/.devcontainer/scripts/mongodb-go-drivers.sh
 
 # import example data
-#/bin/bash /workspace/.devcontainer/scripts/import-examples.sh
+/bin/bash /workspace/.devcontainer/scripts/import-examples.sh
 
 # run node
 cd /workspace;
